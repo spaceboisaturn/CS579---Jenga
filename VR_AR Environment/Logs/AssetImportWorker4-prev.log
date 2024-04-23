@@ -1,0 +1,1274 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'en' Physical Memory: 15747 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Patron/VR_AR Environment
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+55847
+Successfully changed project path to: C:/Users/Patron/VR_AR Environment
+C:/Users/Patron/VR_AR Environment
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10013).
+Player connection [13072] Host "[IP] 172.21.176.1 [Port] 0 [Flags] 2 [Guid] 341147755 [EditorId] 341147755 [Version] 1048832 [Id] WindowsEditor(7,LOAN-RDS-D450) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 32.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Patron/VR_AR Environment/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Vendor:   Intel
+    VRAM:     7873 MB
+    Driver:   31.0.101.4953
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013731 seconds.
+- Loaded All Assemblies, in  1.056 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.794 seconds
+Domain Reload Profiling: 1848ms
+	BeginReloadAssembly (339ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (182ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (367ms)
+				TypeCache.ScanAssembly (325ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (634ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (22ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (442ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.264 seconds
+Refreshing native plugins compatible for Editor in 7.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Edgegap requires Json.NET to be imported to function. To import Json.NET navigate to Window -> Package Manager -> Click the + symbol and choose 'Add package by name' -> com.unity.nuget.newtonsoft-json -> Leave version blank and click Add. If you are not currently using Edgegap you may ignore this message.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Newtonsoft.Json.FallbackDisplayer:Initialize () (at Assets/FishNet/Plugins/Edgegap/Newtonsoft_Package_Patch.cs:46)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/FishNet/Plugins/Edgegap/Newtonsoft_Package_Patch.cs Line: 46)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.653 seconds
+Domain Reload Profiling: 3908ms
+	BeginReloadAssembly (620ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (276ms)
+	LoadAllAssembliesAndSetupDomain (1205ms)
+		LoadAssemblies (988ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (544ms)
+			TypeCache.Refresh (496ms)
+				TypeCache.ScanAssembly (454ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1174ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (913ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 11.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3797 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (58.1 KB). Loaded Objects now: 4257.
+Memory consumption went from 137.2 MB to 137.2 MB.
+Total: 7.766000 ms (FindLiveObjects: 0.442700 ms CreateObjectMapping: 0.310100 ms MarkObjects: 6.757900 ms  DeleteObjects: 0.251800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 674308.299746 seconds.
+  path: Assets/FishNet/Runtime/Object/Synchronizing/SyncDictionary.cs
+  artifactKey: Guid(54751f912587a854cb61ff80a82087bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Object/Synchronizing/SyncDictionary.cs using Guid(54751f912587a854cb61ff80a82087bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e279a3964c2c0e9948284827b8b13002') in 0.255164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil/AssemblyNameDefinition.cs
+  artifactKey: Guid(68b90f4f023a67e4db7ddb52802ca21e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil/AssemblyNameDefinition.cs using Guid(68b90f4f023a67e4db7ddb52802ca21e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4bfafbaeba1e07d0363bc1a2836b77f') in 0.039909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/FishNet/Runtime/Utility/Extension/Transforms.cs
+  artifactKey: Guid(3d311fc1bf09b9e4fbc5a17a9c50ab0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Utility/Extension/Transforms.cs using Guid(3d311fc1bf09b9e4fbc5a17a9c50ab0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cbf9ab9757ba53c96e84cad3fe602cc') in 0.035672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/FishNet/Runtime/Utility/Extension/Networks.cs
+  artifactKey: Guid(cbd3adaae5d34a14ab9cf68726b3bd3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Utility/Extension/Networks.cs using Guid(cbd3adaae5d34a14ab9cf68726b3bd3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fab06cd18e62c0d137e50f13abbcb52') in 0.035859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/FishNet/Runtime/Utility/Performance/ListCache.cs
+  artifactKey: Guid(488b0788adfd9ee43977abd5d0280124) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Utility/Performance/ListCache.cs using Guid(488b0788adfd9ee43977abd5d0280124) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cbf431c469e717531c5b501e8d45cea') in 0.029123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil.Cil/VariableDefinition.cs
+  artifactKey: Guid(1346fa5ba8ac9e8418cc20d2d7d0ad21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil.Cil/VariableDefinition.cs using Guid(1346fa5ba8ac9e8418cc20d2d7d0ad21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aceff65ed4549338b08f34767ec47890') in 0.032104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil/PinnedType.cs
+  artifactKey: Guid(6840e25b64ef0924d84724d5587cfa68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil/PinnedType.cs using Guid(6840e25b64ef0924d84724d5587cfa68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2df32e76aa1d6fff661afd48344b2ba') in 0.030660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil/ManifestResourceAttributes.cs
+  artifactKey: Guid(136b98b695702f048857ea31d91193fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil/ManifestResourceAttributes.cs using Guid(136b98b695702f048857ea31d91193fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5e7a5dc7e7bb23714e549b935e3aa40') in 0.031852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/FishNet/Runtime/Utility/LocalTransformTickSmoother.cs
+  artifactKey: Guid(facff21f41a83964fb8c0dc195d94646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Utility/LocalTransformTickSmoother.cs using Guid(facff21f41a83964fb8c0dc195d94646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b4b4bd768ddeb1924a27e9b27d66d76') in 0.036325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/FishNet/Demos/Prediction V2 (Experimental)/README Prediction V2 Examples.txt
+  artifactKey: Guid(43f99d5241a617843a16537c3229c093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/Prediction V2 (Experimental)/README Prediction V2 Examples.txt using Guid(43f99d5241a617843a16537c3229c093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f2cbefd575e61127ee20aba9795f481') in 0.053106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FishNet/CodeGenerating/cecil-0.11.4/rocks/Mono.Cecil.Rocks/AssemblyInfo.cs
+  artifactKey: Guid(f9ceb0221cb78b247b676d0ea5d57fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/CodeGenerating/cecil-0.11.4/rocks/Mono.Cecil.Rocks/AssemblyInfo.cs using Guid(f9ceb0221cb78b247b676d0ea5d57fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9340373ffe37985b8b6ed0191c0442d6') in 0.035191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FishNet/Runtime/Object/Synchronizing/SyncDictionaryOperation.cs
+  artifactKey: Guid(d5d6ed9db47a8224fa9ed4d2ff54586f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Object/Synchronizing/SyncDictionaryOperation.cs using Guid(d5d6ed9db47a8224fa9ed4d2ff54586f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cba67a9a2ae46cb42cd9bbaa3180ed1') in 0.042003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FishNet/Runtime/Observing/Conditions/OwnerOnlyCondition.cs
+  artifactKey: Guid(1ca3d8a36a10fd344806a2df999f3eda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Observing/Conditions/OwnerOnlyCondition.cs using Guid(1ca3d8a36a10fd344806a2df999f3eda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7365539cb8d11f79dc1c63bd2faba1da') in 0.040049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/FishNet/Runtime/Managing/Timing/PhysicsMode.cs
+  artifactKey: Guid(502e9f31bebd41f4f9088a19eae53735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Managing/Timing/PhysicsMode.cs using Guid(502e9f31bebd41f4f9088a19eae53735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f381241b0c1122dd0dc58bed5611c381') in 0.035756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FishNet/Runtime/Object/Synchronizing/SyncHashSetOperation.cs
+  artifactKey: Guid(914089f5707003340a68fd6cd718e4c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Object/Synchronizing/SyncHashSetOperation.cs using Guid(914089f5707003340a68fd6cd718e4c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '286d496213a95cbc8df7659786456ee0') in 0.031822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs
+  artifactKey: Guid(e6d656f377f37164d8d7431aa4e43cdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs using Guid(e6d656f377f37164d8d7431aa4e43cdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb86acfa74f42db4715f552f27334fd7') in 0.033882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs
+  artifactKey: Guid(c718ab30626bbd648952910f74780a06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs using Guid(c718ab30626bbd648952910f74780a06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '419fe8faea01d680f0345416b311e095') in 0.077355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs
+  artifactKey: Guid(6c5d5c9fcdb14704d9c64b18dc05a809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs using Guid(6c5d5c9fcdb14704d9c64b18dc05a809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a40fe1eacb908a84cc8b98c58893712') in 0.032812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FishNet/Demos/Prediction V1/Rigidbody/Prefabs/RigidbodyPrediction.prefab
+  artifactKey: Guid(d904f93bc171bb144ba33c5155282f6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/Prediction V1/Rigidbody/Prefabs/RigidbodyPrediction.prefab using Guid(d904f93bc171bb144ba33c5155282f6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '634d2550f35f856242d04529d75a6cdb') in 0.178218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_0.unity
+  artifactKey: Guid(7643cdc3eefb15f4f8608cc633c55f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_0.unity using Guid(7643cdc3eefb15f4f8608cc633c55f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c26a6930497191277206a05865915a30') in 0.029413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/FishNet/Demos/Prediction V1/CharacterController/Prefabs/CharacterControllerPrediction.prefab
+  artifactKey: Guid(b2991431a5f893e49937d01b6da44ff8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/Prediction V1/CharacterController/Prefabs/CharacterControllerPrediction.prefab using Guid(b2991431a5f893e49937d01b6da44ff8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '897ab7e4b077b7fc83179c06dc83a0d9') in 0.095030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs
+  artifactKey: Guid(02e5160f1a9b4d047a6cbdb3f094a86d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs using Guid(02e5160f1a9b4d047a6cbdb3f094a86d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd190c7f1937bb295e4b6cf68adf97d3a') in 0.038023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_3.unity
+  artifactKey: Guid(8ac819f926d1e914e9552e79c147082d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_3.unity using Guid(8ac819f926d1e914e9552e79c147082d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e83a0b897bab4e8735860a10003665d4') in 0.027306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Editor/Fonts/BaronNeue SDF.asset
+  artifactKey: Guid(af70148bee18c584898036462be91b19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Editor/Fonts/BaronNeue SDF.asset using Guid(af70148bee18c584898036462be91b19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d18a7a7e3595527ea9c75470a07e5be') in 0.137341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/AppCreation.cs
+  artifactKey: Guid(6519afc2ead759f47a1384db15030792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/AppCreation.cs using Guid(6519afc2ead759f47a1384db15030792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7b319a322516ead35cd90211d70d664') in 0.033790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Editor/Api/EdgegapAppApi.cs
+  artifactKey: Guid(3b0b3b865abe64b49a4000294c4e9593) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Editor/Api/EdgegapAppApi.cs using Guid(3b0b3b865abe64b49a4000294c4e9593) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8ee826b1dc03d68e14e4942ca8d3a30') in 0.029525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FishNet/Demos/ColliderRollback/Materials/Rollback Visualization/ServerPosition.mat
+  artifactKey: Guid(14cdcc3d5d8692d469297ede7ced7ab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/ColliderRollback/Materials/Rollback Visualization/ServerPosition.mat using Guid(14cdcc3d5d8692d469297ede7ced7ab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '184bd512aa7ba059bcef4764c91337ab') in 0.186998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Editor/Fonts/Spartan-Regular SDF.asset
+  artifactKey: Guid(8b0fb2c68be09174f8ea5057b27a545c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Editor/Fonts/Spartan-Regular SDF.asset using Guid(8b0fb2c68be09174f8ea5057b27a545c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'babcfb5a8f6621e1931a75651d2871c0') in 0.101317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/ApiModelContainercrashdata.cs
+  artifactKey: Guid(b888d877048876b40a346a5c2874b740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/ApiModelContainercrashdata.cs using Guid(b888d877048876b40a346a5c2874b740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09a7e956bd8ff14c494c11059361f21f') in 0.032638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/MatchmakerCreate.cs
+  artifactKey: Guid(2503ca17d24577242b06815cc5bafd3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/MatchmakerCreate.cs using Guid(2503ca17d24577242b06815cc5bafd3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5eefe6fe24f59d444bf8253c28e6d74') in 0.032693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/CustomSessionModel.cs
+  artifactKey: Guid(cadab219fe9aa04429246bb44aaa17ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/CustomSessionModel.cs using Guid(cadab219fe9aa04429246bb44aaa17ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95eabbbc72fe59067c77064e595d77f6') in 0.036937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/LocationModel.cs
+  artifactKey: Guid(23ccc7c1d174b454eb7154d2e7a67662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/LocationModel.cs using Guid(23ccc7c1d174b454eb7154d2e7a67662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bbe7f12a235993a958086a882b239d8') in 0.037847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/DeploymentLocation.cs
+  artifactKey: Guid(573aa022b98230046bb90d3e0f9e8597) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/DeploymentLocation.cs using Guid(573aa022b98230046bb90d3e0f9e8597) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e64504769acd0ad2c60537cd98212e79') in 0.048303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/ComponentCredentials.cs
+  artifactKey: Guid(db129ae1efd1800498f963192357b08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/ComponentCredentials.cs using Guid(db129ae1efd1800498f963192357b08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fff3f6ad9eb189bf9161401e7187f9da') in 0.042765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/Error.cs
+  artifactKey: Guid(20d59dd0013e73f4eaa719e9f2dc4c33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/Error.cs using Guid(20d59dd0013e73f4eaa719e9f2dc4c33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b483a68eb3972a325dc76dab735dc733') in 0.040692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/AppVersionWhitelistEntrySuccess.cs
+  artifactKey: Guid(2fd2776b60ac941479df7e8dd021993e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/AppVersionWhitelistEntrySuccess.cs using Guid(2fd2776b60ac941479df7e8dd021993e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc507a4b03559915a27fb28de21f805d') in 0.037759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/DeploymentSessionContext.cs
+  artifactKey: Guid(9d41c7d0b7fb0354eaba9df80b298610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/DeploymentSessionContext.cs using Guid(9d41c7d0b7fb0354eaba9df80b298610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b8367f831abfe2302b80db0985e0052') in 0.038161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/FishNet/Demos/Prediction V1/Rigidbody/Scripts/PredictedBullet.cs
+  artifactKey: Guid(fc7792d9dc338aa4dbc8a2f0533cf6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/Prediction V1/Rigidbody/Scripts/PredictedBullet.cs using Guid(fc7792d9dc338aa4dbc8a2f0533cf6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '767d53ad492e9821edc8baf1d3fd51d0') in 0.038227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FishNet/Demos/ColliderRollback/Prefabs/Rollback Visualization/TextCanvas.prefab
+  artifactKey: Guid(a7bbd13c7452746409efbaeae6a0d8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/ColliderRollback/Prefabs/Rollback Visualization/TextCanvas.prefab using Guid(a7bbd13c7452746409efbaeae6a0d8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '286972f35d5c7219a89c2129fd5b5f3e') in 0.093138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FishNet/Runtime/Serializing/Helping/ValueConversions.cs
+  artifactKey: Guid(008e79d0f22a2674189acc7eff64408f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Serializing/Helping/ValueConversions.cs using Guid(008e79d0f22a2674189acc7eff64408f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9027eef136a009dce2b62d1fa2dfef6') in 0.037466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/SessionContext.cs
+  artifactKey: Guid(c04580c90e42bc347bd30dd1c957a03a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/SessionContext.cs using Guid(c04580c90e42bc347bd30dd1c957a03a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '408b0b1cc6ceb61afe7977c561107a74') in 0.035811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/PatchSessionModel.cs
+  artifactKey: Guid(271a9addc168d7b4297dbf1b39f5769e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/PatchSessionModel.cs using Guid(271a9addc168d7b4297dbf1b39f5769e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62709cfd46ae5754e663722e84e20a73') in 0.053112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkCollision2D.cs
+  artifactKey: Guid(be3cb2952c351714c963b0766f53cef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkCollision2D.cs using Guid(be3cb2952c351714c963b0766f53cef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8616b0ac493cacbe91e4e4d8658a5db5') in 0.037248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/SelectorModel.cs
+  artifactKey: Guid(f8c6e90e8d48e4644acb39ad543db2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/SelectorModel.cs using Guid(f8c6e90e8d48e4644acb39ad543db2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f61eef9ebeefe5bb1cbe0b9fe2e8e1c') in 0.034529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FishNet/Runtime/Generated/Component/Prediction/PredictedObject.cs
+  artifactKey: Guid(402926ef33e0a894d9fec352693988ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Generated/Component/Prediction/PredictedObject.cs using Guid(402926ef33e0a894d9fec352693988ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b684513acdf869fc06061740b751f627') in 0.038817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/MatchmakerReleaseResponseBase.cs
+  artifactKey: Guid(3d4fdeecc66f23d4d89778724a02989c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/MatchmakerReleaseResponseBase.cs using Guid(3d4fdeecc66f23d4d89778724a02989c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1949993c88cff1fb7990bcfb292af520') in 0.031997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FishNet/Runtime/Editor/Textures/UI/Button_Dark_Indicator.png
+  artifactKey: Guid(2b3dca501a9d8c8479dc71dd068aa8b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Editor/Textures/UI/Button_Dark_Indicator.png using Guid(2b3dca501a9d8c8479dc71dd068aa8b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c17230e97d280deb41f6894eb2732ad') in 0.179585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/SessionDelete.cs
+  artifactKey: Guid(d49ffc8fe921fbe4bbae2e694a7d83c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/SessionDelete.cs using Guid(d49ffc8fe921fbe4bbae2e694a7d83c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b3579f88af5ee5f949787ed6e3f82e4') in 0.040298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/MatchmakerManagedReleaseUpdate.cs
+  artifactKey: Guid(7acebb9dc98970b46bd3b314c5d85105) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/MatchmakerManagedReleaseUpdate.cs using Guid(7acebb9dc98970b46bd3b314c5d85105) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2808c30ff845e20950c2d375e1adb2e') in 0.052666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FishNet/Runtime/Generated/Component/TakeOwnership/PredictedSpawn.cs
+  artifactKey: Guid(e2b597e1828355a4d994a69cbb11ef85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Generated/Component/TakeOwnership/PredictedSpawn.cs using Guid(e2b597e1828355a4d994a69cbb11ef85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec60acd57147b9790b7886de9f0a77a5') in 0.045248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FishNet/Runtime/Managing/Server/Object/ServerObjects.cs
+  artifactKey: Guid(d5e7f3005cbc7924f99819311c58651a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Managing/Server/Object/ServerObjects.cs using Guid(d5e7f3005cbc7924f99819311c58651a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0271760a1108dda2745e9d709543e212') in 0.056546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs
+  artifactKey: Guid(9536377524ca5db43aae431f983ab21f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs using Guid(9536377524ca5db43aae431f983ab21f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4aa1ec6dea3fd8fe88b512cc699fc8d') in 0.049042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/FishNet/Runtime/Managing/Scened/Events/LoadSceneEventArgs.cs
+  artifactKey: Guid(86278568f8087de49b0908f148501993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Managing/Scened/Events/LoadSceneEventArgs.cs using Guid(86278568f8087de49b0908f148501993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'baee5daa5de94969fb9fcd21590831d3') in 0.053978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/FishNet/Runtime/Generated/Component/Utility/DefaultScene.cs
+  artifactKey: Guid(57ce8bbb58966cb45a7140f32da5327a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Generated/Component/Utility/DefaultScene.cs using Guid(57ce8bbb58966cb45a7140f32da5327a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd73c5f73607614a7553115691e8c7da8') in 0.046279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FishNet/Runtime/Managing/Scened/Events/UnloadSceneEventArgs.cs
+  artifactKey: Guid(2c24765fea85b564aa331b529f324f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Managing/Scened/Events/UnloadSceneEventArgs.cs using Guid(2c24765fea85b564aa331b529f324f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5068d78b140fd66e97c05d79891718a') in 0.037908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/FishNet/Runtime/Generated/Component/Prediction/PredictedObjectSpectatorSmoother.cs
+  artifactKey: Guid(6bb311b5dc9602a4f8e4a8c6e64b21cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Generated/Component/Prediction/PredictedObjectSpectatorSmoother.cs using Guid(6bb311b5dc9602a4f8e4a8c6e64b21cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8971c50af2f26af0720cbc4cdab3b0d') in 0.039703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/FishNet/Runtime/Managing/Scened/LoadUnloadDatas/LoadOptions.cs
+  artifactKey: Guid(1614453d3786b2a4eb18b69297da7dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Managing/Scened/LoadUnloadDatas/LoadOptions.cs using Guid(1614453d3786b2a4eb18b69297da7dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dbc1e30ca0d36d0a22e57bb0a9b38ba') in 0.036640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/FishNet/Runtime/Managing/Server/Object/ServerObjects.Observers.cs
+  artifactKey: Guid(02d93fa4a653dd64da0bb338b82f4740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Managing/Server/Object/ServerObjects.Observers.cs using Guid(02d93fa4a653dd64da0bb338b82f4740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfabf4b19878644fe575eb2a266465df') in 0.044063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FishNet/Runtime/Managing/Scened/LoadUnloadDatas/PreferredActiveScenes.cs
+  artifactKey: Guid(680c29c425aaea745a28a5590e2c00f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Managing/Scened/LoadUnloadDatas/PreferredActiveScenes.cs using Guid(680c29c425aaea745a28a5590e2c00f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4669668cf487b3ca9873b6490b62f134') in 0.040776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FishNet/Runtime/Serializing/ReaderStatics.cs
+  artifactKey: Guid(c1f98beaf8f697d4b8bb1e6b6ef32d42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Serializing/ReaderStatics.cs using Guid(c1f98beaf8f697d4b8bb1e6b6ef32d42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93ca54b4f19c6a7fa6b6cc501ced2d49') in 0.040295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transport.cs
+  artifactKey: Guid(78aba14618b37ea4bb067fa95ede84e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transport.cs using Guid(78aba14618b37ea4bb067fa95ede84e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e204f1099e858ca4d61939a2a6e6e48') in 0.036026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_0/LightingData.asset
+  artifactKey: Guid(4bb692eb322f5154c996f4ae7d8d8bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/SceneManager/Additive Scenes/Scenes/AdditiveScenes_0/LightingData.asset using Guid(4bb692eb322f5154c996f4ae7d8d8bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2112c7906bd1abaecb22b9344b241dd') in 0.085255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FishNet/Runtime/Observing/Conditions/GridCondition/GridCondition.asset
+  artifactKey: Guid(cc503f7541ebd424c94541e6a767efee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Observing/Conditions/GridCondition/GridCondition.asset using Guid(cc503f7541ebd424c94541e6a767efee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f931251970cb04e9589379dc5c6e14cf') in 0.056885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/FishNet/Runtime/Observing/Conditions/ScriptableObjects/DistanceCondition.asset
+  artifactKey: Guid(5f33eb0e5b83b5546822cfe42a305657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Observing/Conditions/ScriptableObjects/DistanceCondition.asset using Guid(5f33eb0e5b83b5546822cfe42a305657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bebe51e1ea4a30c3bdfc69c5cd776902') in 0.055818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FishNet/Runtime/Observing/Conditions/GridCondition/HashGrid.cs
+  artifactKey: Guid(0a9fc3aafb02eb74fb571c300f846bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Observing/Conditions/GridCondition/HashGrid.cs using Guid(0a9fc3aafb02eb74fb571c300f846bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '693dd638c885bd3824b946e08df2af9f') in 0.037855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FishNet/Demos/ColliderRollback/Models/Weapons/Materials/Gray6.mat
+  artifactKey: Guid(1aa329960fc39aa4490b3a9e7e965fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Demos/ColliderRollback/Models/Weapons/Materials/Gray6.mat using Guid(1aa329960fc39aa4490b3a9e7e965fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e63a38103d7d422b9a28df869e83a10') in 0.055145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FishNet/Runtime/Generated/Component/Utility/Editor/DetachableNetworkTickSmootherEditor.cs
+  artifactKey: Guid(342594fe005d75a4985e1a8ca218f822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Generated/Component/Utility/Editor/DetachableNetworkTickSmootherEditor.cs using Guid(342594fe005d75a4985e1a8ca218f822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d080f2dac07c222ed0051c3bf60dae3') in 0.040998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/Editor/NetworkAnimatorEditor.cs
+  artifactKey: Guid(65609e99a0823a347a2f615b0e6f736e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/Editor/NetworkAnimatorEditor.cs using Guid(65609e99a0823a347a2f615b0e6f736e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58501af9a0e88d21d22914596c6dbb70') in 0.036552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FishNet/Runtime/Plugins/ColliderRollback/Scripts/RollbackManager.cs
+  artifactKey: Guid(b185516acd802904383e2a5f1a666750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/ColliderRollback/Scripts/RollbackManager.cs using Guid(b185516acd802904383e2a5f1a666750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17d971d8ba760b86a328a8f3c87c5e10') in 0.166356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs
+  artifactKey: Guid(5f3d973dcfa06554998575e8eef0938a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs using Guid(5f3d973dcfa06554998575e8eef0938a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68b6e0234fdd961c9f3d61af96c4c03b') in 0.351222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Editing.cs
+  artifactKey: Guid(dd42f76391fc1254f82767dbf1a4bc8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Editing.cs using Guid(dd42f76391fc1254f82767dbf1a4bc8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c4578f06d0c7da80930f0edd5e95cc9') in 0.046299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs
+  artifactKey: Guid(1c18e15e44d21a94d8919f4b6b125a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs using Guid(1c18e15e44d21a94d8919f4b6b125a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39534ec18ed820eca9ce7830b5baca51') in 0.038424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs
+  artifactKey: Guid(b42ee5a523e67ff4c9149f91f7fe4245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs using Guid(b42ee5a523e67ff4c9149f91f7fe4245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a8a041313a11afcf8c57419103ce7c5') in 0.039021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs
+  artifactKey: Guid(e6c66aec505f9254491b2b126a2d4745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs using Guid(e6c66aec505f9254491b2b126a2d4745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0f4d06066d71378af239d245ca0aa97') in 0.044446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Editor/Api/Models/Results/CreateDeploymentResult.cs
+  artifactKey: Guid(8361abc6f84fccd4cba26dc285d335dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Editor/Api/Models/Results/CreateDeploymentResult.cs using Guid(8361abc6f84fccd4cba26dc285d335dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bf360430d6f478a33515b31df81f64f') in 0.037736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs
+  artifactKey: Guid(12cfcf4490f2b8f4db979ee833ecf5af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs using Guid(12cfcf4490f2b8f4db979ee833ecf5af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4408d3c3c45d708cb4513248d821c964') in 0.055571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Editor/Api/Models/Results/GetCreateAppResult.cs
+  artifactKey: Guid(a66c935238edd8846b1e9e9e19cfab70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Editor/Api/Models/Results/GetCreateAppResult.cs using Guid(a66c935238edd8846b1e9e9e19cfab70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44a3eb0d820a18e71b3be3e300e4f7ba') in 0.053966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs
+  artifactKey: Guid(e7ddd322169be074f870f73db1a55255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs using Guid(e7ddd322169be074f870f73db1a55255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ca2424e1c5097a77510d7ac844d01bd') in 0.055318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Arrays.cs
+  artifactKey: Guid(1b93eae9ff81b3e4b892128ca4b392ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Arrays.cs using Guid(1b93eae9ff81b3e4b892128ca4b392ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f94113e8fcd1f99232b91af605f56051') in 0.037520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs
+  artifactKey: Guid(4ab517aa5c3b6e34ca20461339adda04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs using Guid(4ab517aa5c3b6e34ca20461339adda04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e8f3257eeb12be57069f77354765ded') in 0.038789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs
+  artifactKey: Guid(70b7c357a9f57f5479c5d94550d26280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs using Guid(70b7c357a9f57f5479c5d94550d26280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64a7ca4e2ec59521e8e0856f05726528') in 0.033045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/Core/ClientSocket.cs
+  artifactKey: Guid(7944de5e4da77594db036e276174ee60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/Core/ClientSocket.cs using Guid(7944de5e4da77594db036e276174ee60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b6e1c3fc20fc68dec8c751c4cf06727') in 0.041354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs
+  artifactKey: Guid(f7e20c169333af54fa233b0d70b19a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs using Guid(f7e20c169333af54fa233b0d70b19a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bbd9894bb4beb2bb875624d9511b4df') in 0.038803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs
+  artifactKey: Guid(9cc0423407df3e74a8e5a15dbbad2598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs using Guid(9cc0423407df3e74a8e5a15dbbad2598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2730b7f56ae926e2afd1ee9dabee8d0c') in 0.031962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Editor/Api/Models/LocationData.cs
+  artifactKey: Guid(57eed0dbd556e074c992cf6599a1f6bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Editor/Api/Models/LocationData.cs using Guid(57eed0dbd556e074c992cf6599a1f6bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3801817abdd3731b9565084e7b6ee704') in 0.036084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs
+  artifactKey: Guid(16f03af589a154c47bcbcc3f82b710a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs using Guid(16f03af589a154c47bcbcc3f82b710a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8f165be280c1829755842ea8faa8c9d') in 0.038182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SceneAttribute.cs
+  artifactKey: Guid(39fdd420f2fa10548af8c39d451d8a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SceneAttribute.cs using Guid(39fdd420f2fa10548af8c39d451d8a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f549cbc3dd3227f9f915c5b467e5e02') in 0.052290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ResettableRingBuffer.cs
+  artifactKey: Guid(2fa03073e536c6e4db989416ee03c6e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ResettableRingBuffer.cs using Guid(2fa03073e536c6e4db989416ee03c6e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9a81559d3f198bb944dc8bc2ab41186') in 0.041002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetPacketProcessor.cs
+  artifactKey: Guid(f0d5a653362556943a36db010a601057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetPacketProcessor.cs using Guid(f0d5a653362556943a36db010a601057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e55cd43cdddfde575e7308b4a3178c3c') in 0.041326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Editor/Fonts/Src/Spartan/Spartan-Regular.ttf
+  artifactKey: Guid(3445f8970e8fa734c96cef5ab98ddd61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Editor/Fonts/Src/Spartan/Spartan-Regular.ttf using Guid(3445f8970e8fa734c96cef5ab98ddd61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56b544123ac8a36f889e3222015d3322') in 0.086953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SingletonScriptableObject.cs
+  artifactKey: Guid(bef14acaff843864185c13ac82c05995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SingletonScriptableObject.cs using Guid(bef14acaff843864185c13ac82c05995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9682458b466adf84e122584b4e7f9d4') in 0.033849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/CRC32C.cs
+  artifactKey: Guid(912ba506b0945b743be5c4129177024c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/CRC32C.cs using Guid(912ba506b0945b743be5c4129177024c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68096314b2246c76ad95aeb3263f75f7') in 0.038500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/RingBuffer.cs
+  artifactKey: Guid(4398caa06d4585440822752ab3424be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/RingBuffer.cs using Guid(4398caa06d4585440822752ab3424be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b412bf9d7ea2f0942f0fd7a5ab06e23') in 0.043479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs
+  artifactKey: Guid(5764e627642cf5643a3f4518d450840e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs using Guid(5764e627642cf5643a3f4518d450840e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dba9768b8205baf6812ff050e1298caa') in 0.034938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetDataReader.cs
+  artifactKey: Guid(2876e12b475627f448ca5a6850748bc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetDataReader.cs using Guid(2876e12b475627f448ca5a6850748bc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d13b653956b5c606cc19e48463876c4') in 0.032338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs
+  artifactKey: Guid(4a2c6d65e69e9154b8f99096ed3096dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs using Guid(4a2c6d65e69e9154b8f99096ed3096dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95cff93ac0cff3838350fa92febefc18') in 0.028134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/FishNet/Runtime/Managing/Scened/LoadUnloadDatas/SceneUnloadData.cs
+  artifactKey: Guid(77cbfeea232e4ab44a4315b003ce6742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Managing/Scened/LoadUnloadDatas/SceneUnloadData.cs using Guid(77cbfeea232e4ab44a4315b003ce6742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e377a0458ba9138305cb93632b27d7bc') in 0.030614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs
+  artifactKey: Guid(ab8f6cec624bac24d8fcc6a7a27a07e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs using Guid(ab8f6cec624bac24d8fcc6a7a27a07e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e12a3c831302a8ee2e48970a027b6bd1') in 0.029938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs
+  artifactKey: Guid(80e69d14230e52a45bba1fa6f40fd30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs using Guid(80e69d14230e52a45bba1fa6f40fd30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e19f20d17871c086435bf3e1d76ef05') in 0.037077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Inspectors/Group/Editor/Resources/IN foldout focus-6510.png
+  artifactKey: Guid(795626f49ade9024a86e0c1a58aa004b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Inspectors/Group/Editor/Resources/IN foldout focus-6510.png using Guid(795626f49ade9024a86e0c1a58aa004b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60731bce67ad330807b590ad3b573757') in 0.099138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/StaticSites.cs
+  artifactKey: Guid(e75be496dcaa516468e69cc1a0ebd1ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/StaticSites.cs using Guid(e75be496dcaa516468e69cc1a0ebd1ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7370f8a48f2e8bc47e0d6f31441d1c82') in 0.037675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/FishNet/CodeGenerating/Extension/MethodDefinitionExtensions.cs
+  artifactKey: Guid(866ed457fe28c3e4b9698d87b9abd709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/CodeGenerating/Extension/MethodDefinitionExtensions.cs using Guid(866ed457fe28c3e4b9698d87b9abd709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e040027937a669f185f427143ba649f1') in 0.035981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil/TypeReferenceEqualityComparer.cs
+  artifactKey: Guid(5e048a822386ae34ab1124eaf29e1d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/CodeGenerating/cecil-0.11.4/Mono.Cecil/TypeReferenceEqualityComparer.cs using Guid(5e048a822386ae34ab1124eaf29e1d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa10cfee8e2b2a6bb26814692cede536') in 0.037199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs
+  artifactKey: Guid(18a583dc22a9a0f4cabec0c4a0219c6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs using Guid(18a583dc22a9a0f4cabec0c4a0219c6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c7bb8d8ec8722d8083b6c8d8c652b13') in 0.037218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/FishNet/CodeGenerating/Helpers/WriterImports.cs
+  artifactKey: Guid(425638e29bab6f1488e8865c9e3f8b57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/CodeGenerating/Helpers/WriterImports.cs using Guid(425638e29bab6f1488e8865c9e3f8b57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1dabd5aeb58434567271c206fa4d4e4') in 0.043233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FishNet/Runtime/Editor/CodeStripping.cs
+  artifactKey: Guid(0c7409efe2f84e7428d5c6c97ed7d32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Editor/CodeStripping.cs using Guid(0c7409efe2f84e7428d5c6c97ed7d32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18118c8859cea52d7f360279ba6b29e2') in 0.031172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FishNet/Plugins/Edgegap/Models/SDK/MatchmakerReleaseUpdate.cs
+  artifactKey: Guid(a4a70c06ab8388b41b81604eb18c9204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Plugins/Edgegap/Models/SDK/MatchmakerReleaseUpdate.cs using Guid(a4a70c06ab8388b41b81604eb18c9204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7ddd688b35ee4ef072e9d772c73f9e3') in 0.042404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FishNet/Runtime/Utility/Performance/DefaultObjectPool.cs
+  artifactKey: Guid(cb13d174096685549b1d6a94d726ff7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Utility/Performance/DefaultObjectPool.cs using Guid(cb13d174096685549b1d6a94d726ff7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fe825c1e1aa0bf271418efd1bb33377') in 0.031023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/FishNet/CodeGenerating/cecil-0.11.4/rocks/Mono.Cecil.Rocks/ModuleDefinitionRocks.cs
+  artifactKey: Guid(d90334a1cd085c047b9b8eddaa65cf09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/CodeGenerating/cecil-0.11.4/rocks/Mono.Cecil.Rocks/ModuleDefinitionRocks.cs using Guid(d90334a1cd085c047b9b8eddaa65cf09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '470bdf934cda0c936ace1c386db63922') in 0.034972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/FishNet/Runtime/Broadcast/IBroadcast.cs
+  artifactKey: Guid(88ec864df25feed49bdcdab7f880531d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FishNet/Runtime/Broadcast/IBroadcast.cs using Guid(88ec864df25feed49bdcdab7f880531d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d4b01c20e2b274899fd0e0c72261a37') in 0.034271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.025 seconds
+Refreshing native plugins compatible for Editor in 8.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Edgegap requires Json.NET to be imported to function. To import Json.NET navigate to Window -> Package Manager -> Click the + symbol and choose 'Add package by name' -> com.unity.nuget.newtonsoft-json -> Leave version blank and click Add. If you are not currently using Edgegap you may ignore this message.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Newtonsoft.Json.FallbackDisplayer:Initialize () (at Assets/FishNet/Plugins/Edgegap/Newtonsoft_Package_Patch.cs:46)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/FishNet/Plugins/Edgegap/Newtonsoft_Package_Patch.cs Line: 46)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.661 seconds
+Domain Reload Profiling: 2681ms
+	BeginReloadAssembly (312ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (591ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1661ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (740ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3873 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (62.6 KB). Loaded Objects now: 4350.
+Memory consumption went from 142.1 MB to 142.0 MB.
+Total: 4.853800 ms (FindLiveObjects: 0.340800 ms CreateObjectMapping: 0.192100 ms MarkObjects: 4.140800 ms  DeleteObjects: 0.178100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
